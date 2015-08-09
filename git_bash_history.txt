@@ -1,0 +1,50 @@
+git config --global user.name "spyronum"
+git -help
+git config --global user.email "mzahidur.rahman@gmail.com"
+cd /Desktop
+ls
+cd ..
+ls
+cd ..
+ls
+cd wamp/
+cd www/
+ls
+git clone https://github.com/mzahidur/TestGitHub.git
+ls
+cd TestGitHub/
+ls
+touch .gitignore
+ls
+tourch SetupInstruction.txt
+git add SetupInstruction.txt
+cat > SetupInstruction.txt
+ls
+vi .gitignore 
+vim README.md 
+git status
+git add README.md
+git commit -help
+git status
+git add .gitignore SetupInstruction.txt
+git status
+git commit -m "Updated Readme file for better description. Also added .gitignore for CodeIgniter and a setupinstruction."
+git log
+git status
+git remote add origin https://github.com/mzahidur/TestGitHub.git
+git push -u origin master
+git status
+touch Test.txt
+vim Test.txt 
+git status
+git add .
+git commit -m "Test.txt was added just to test the 'git add .' command."
+git status
+git log
+git push -u origin master
+git status
+git status
+git log
+history -w ~/git_bash_history.txt
+ls
+history -w git_bash_history.txt
